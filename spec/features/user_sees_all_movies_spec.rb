@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe "user index" do
   it "they can see all movies" do
     movie_1 = Movie.create(title: "Drop Dead Fred", description: "An unhappy housewife gets a lift from the return of her imaginary childhood friend")
